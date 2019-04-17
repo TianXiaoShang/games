@@ -1,0 +1,65 @@
+.wrapper{
+    width:400px;
+    height:600px;
+    border:2px solid black;
+    margin:auto;
+    top:50px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(./背景图.png)
+}
+
+.start2{
+    width: 400px;
+    height:600px;
+    background-image: url(./背景图2.png);
+    position: absolute;
+    top: 0px;
+}
+
+.start{
+    position: absolute;
+
+    bottom: 12px;
+    /* top: 0px; */
+    height:96px;
+    width: 400px;
+    /* background-color: lightgoldenrodyellow; */
+    /* border-bottom: 2px dotted blueviolet; */
+
+    z-index: 2
+}
+
+.main{
+    width: 400px;
+    height:900px;
+    position: absolute;
+    top: -150px;
+    /* background-color: darkkhaki; */
+}
+
+.btn{
+    width: 98px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: white;
+    float: left;
+    opacity: 0.5;
+}
+
+.black{
+    width: 98px;
+    height: 150px;
+    border: 1px solid black;
+    background-color:black;
+    float: left;
+}
+
+.btn2{
+    float:left;
+    width: 98px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: silver;
+    opacity: 0.8;
+}
